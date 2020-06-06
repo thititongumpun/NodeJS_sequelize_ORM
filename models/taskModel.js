@@ -14,6 +14,10 @@ module.exports = (sequelize, Sequelize) => {
             date: {
                 type: Sequelize.DATE,
                 field: 'date'
+            },
+            dueDate: {
+                type: Sequelize.DATE,
+                field: 'dueDate'
             }
         },
         {
