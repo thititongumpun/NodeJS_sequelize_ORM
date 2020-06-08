@@ -41,6 +41,7 @@ Follow the instructions:
     $ npm/yarn dev
 
 :: 
+
     $ build image
     docker build -t <yourname/nodeapp> .
     $ run image
