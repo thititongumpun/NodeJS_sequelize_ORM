@@ -39,3 +39,9 @@ Follow the instructions:
 
     $ npm/yarn test connect db ?
     $ npm/yarn dev
+
+:: 
+    $ build image
+    docker build -t <yourname/nodeapp> .
+    $ run image
+    docker run -d port/port <yourname/nodeapp>
